@@ -17,9 +17,9 @@ public class Comment {
 	// XXX:危险提示
 
 	// 4.4 常量注释
-	
+
 	// as long as it's >= 2 num_processors, that's good enough
-	private static final int NUM_THREADS = 8; 
+	private static final int NUM_THREADS = 8;
 
 	// 4.5 提示 可能的陷阱
 
@@ -40,8 +40,9 @@ public class Comment {
 
 	// 4.11 对输入输出进行举例说明
 
-	// Example: Partition([8 5 9 8 2], 8) might result in [5 2 | 8 9 8] and return 1
-	
+	// Example: Partition([8 5 9 8 2], 8) might result in [5 2 | 8 9 8] and
+	// return 1
+
 	int partition(Vector<Integer> vector, int pivot) {
 		// fake implement
 		return 0;
@@ -56,7 +57,9 @@ public class Comment {
 	}
 
 	void touch() {
-		connect(/** timeout **/ 10, /** useEncrytion **/ true);
+		connect(/** timeout **/
+				10, /** useEncrytion **/
+				true);
 	}
 
 	// 4.14 采用信息含量高的词

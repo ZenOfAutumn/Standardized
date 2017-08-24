@@ -36,9 +36,9 @@ public class Aesthetics {
 
 	private static final HashMap<String, String> DICTS = new HashMap<String, String>();
 
-	private String details  = DICTS.get("details");
+	private String details = DICTS.get("details");
 	private String location = DICTS.get("location");
-	private String phone    = DICTS.get("phone");
+	private String phone = DICTS.get("phone");
 
 	// 3.4 选择有意义的顺序，并一直使用
 

@@ -40,13 +40,15 @@ public class InformationName {
 	// 1.4、循环迭代器
 
 	void normalIterator(Collection<String> names) {
-		for (int i = 0; i < names.size(); i++);
-			
+		for (int i = 0; i < names.size(); i++)
+			;
+
 	}
 
 	void preciseItertor(String[][] nameGroups) {
 		for (int groupIndex = 0; groupIndex < nameGroups.length; groupIndex++) {
-			for (int itemIndex = 0; itemIndex < nameGroups[groupIndex].length; itemIndex++);
+			for (int itemIndex = 0; itemIndex < nameGroups[groupIndex].length; itemIndex++)
+				;
 		}
 	}
 
